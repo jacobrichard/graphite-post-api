@@ -1,0 +1,3 @@
+graphite_urls = patterns(
+    ('^api/?', include('graphite.api.urls')),
+)

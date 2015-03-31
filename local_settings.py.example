@@ -1,0 +1,5 @@
+#######################################
+## HTTP POST Api Settings for Carbon ##
+#######################################
+API_CARBON_HOST = 'localhost'
+API_CARBON_PORT = 2003
