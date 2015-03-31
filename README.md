@@ -18,7 +18,7 @@ API_CARBON_PORT = 2003
 * Include ('^api/?', include('graphite.api.urls')) in urls.py
 ```
 graphite_urls = patterns(
-    *YOUR STUFF*
+    *YOUR STUFF*,
     ('^api/?', include('graphite.api.urls')),
 )
 ```
