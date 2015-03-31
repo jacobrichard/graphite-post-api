@@ -1,5 +1,5 @@
 # graphite-post-api
-This is an extension of the django graphite-webapp to recieve post requests with data and hand htem off to carbon. 
+This is an extension of the django graphite-webapp to recieve post requests with data and hand them off to carbon. 
 
 # Installation
 * Drop api/ into the graphite webapp directory (/opt/graphite/webapp/graphite/)
