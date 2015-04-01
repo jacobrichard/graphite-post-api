@@ -11,7 +11,7 @@ from socket import socket
 
 
 @logged_in_or_basicauth()
-def sink(request):
+def sink_v1(request):
     if not request.user.profile.api_user or not request.META.get('HTTP_API_KEY') == request.user.profile.api_key:
         return HttpResponse('Unauthorized', status=401)
     if request.method == "POST":
