@@ -17,5 +17,5 @@ from . import views
 
 urlpatterns = patterns(
     '',
-    url('^v1/sink$', views.sink, name='api'),
+    url('^v1/sink$', views.sink_v1, name='api_v1'),
 )
