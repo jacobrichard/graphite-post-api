@@ -13,9 +13,9 @@ You may obtain a copy of the License at
    limitations under the License."""
 
 from django.conf.urls import patterns, url
-from . import views
+from graphite.api.views import API
 
 urlpatterns = patterns(
     '',
-    url('^v1/sink$', views.sink_v1, name='api_v1'),
+    url('^v1/sink$', API.as_view(), name='api'),
 )
